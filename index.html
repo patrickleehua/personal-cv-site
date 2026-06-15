@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal homepage and bilingual online CV." />
+    <title>Patrick Lee | Personal Site and CV</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Skip to content</a>
+    <main id="app" class="stage">
+      <section class="view">
+        <div class="site-card" style="max-width: 760px; padding: 32px;">
+          <h1 style="margin-top: 0;">Loading resume...</h1>
+          <p>If this message stays visible, a script failed to load.</p>
+        </div>
+      </section>
+    </main>
+    <button class="back-to-top" type="button" data-action="back-to-top" aria-label="返回顶部" hidden>
+      <i data-lucide="arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="content/resume-data.js"></script>
+    <script src="vendor/lucide.min.js"></script>
+    <script src="app.js"></script>
+    <script src="templates/reference.js"></script>
+  </body>
+</html>
