@@ -1,5 +1,31 @@
+const LOCALE_STORAGE_KEY = "cv-site-locale";
+
+// 检测浏览器语言：默认中文，识别到其他国家/语言时回落英文。
+// 优先级：用户手动选择（localStorage） > 浏览器语言 > 中文默认。
+function detectLocale() {
+  try {
+    const saved = window.localStorage.getItem(LOCALE_STORAGE_KEY);
+    if (saved === "zh" || saved === "en") {
+      return saved;
+    }
+  } catch (error) {
+    // localStorage 不可用（隐私模式等），忽略后回落到浏览器语言判断。
+  }
+
+  const languages =
+    Array.isArray(navigator.languages) && navigator.languages.length
+      ? navigator.languages
+      : [navigator.language || navigator.userLanguage || ""];
+
+  const prefersChinese = languages.some((lang) =>
+    String(lang).toLowerCase().startsWith("zh"),
+  );
+
+  return prefersChinese ? "zh" : "en";
+}
+
 const AppState = {
-  locale: "zh",
+  locale: detectLocale(),
   route: "home",
   template: "reference",
   unlocked: false,
@@ -125,6 +151,11 @@ function setRoute(route) {
 
 function switchLanguage() {
   AppState.locale = AppState.locale === "zh" ? "en" : "zh";
+  try {
+    window.localStorage.setItem(LOCALE_STORAGE_KEY, AppState.locale);
+  } catch (error) {
+    // localStorage 不可用时仅在当前会话生效，不阻断切换。
+  }
   renderApp();
 }
 
