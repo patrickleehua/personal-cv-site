@@ -40,7 +40,7 @@ window.RESUME_DATA = {
       links: [
         {
           label: "GitHub",
-          url: "https://github.com/patricleehua",
+          url: "https://github.com/patrickleehua",
         },
         {
           label: "Telegram",
@@ -112,7 +112,7 @@ window.RESUME_DATA = {
         items: [
           "具备 Cursor、Claude Code、Codex、Qoder 等工具驱动下的 Vibe / Spec Coding 全站开发能力。",
           "了解 Solidity、Foundry 与基础链上合约开发。",
-          "Nof1 项目逆向后端：https://github.com/patricleehua/nof0-backed-end",
+          "Nof1 项目逆向后端：https://github.com/patrickleehua/nof0-backed-end",
         ],
       },
     ],
@@ -478,7 +478,7 @@ window.RESUME_DATA = {
       links: [
         {
           label: "GitHub",
-          url: "https://github.com/patricleehua",
+          url: "https://github.com/patrickleehua",
         },
         {
           label: "Telegram",
@@ -551,7 +551,7 @@ window.RESUME_DATA = {
         items: [
           "Comfortable building full-stack applications with Cursor, Claude Code, Codex, Qoder, and spec-driven coding workflows.",
           "Basic knowledge of Solidity, Foundry, and smart contract development.",
-          "Nof1 reverse-engineered backend project: https://github.com/patricleehua/nof0-backed-end",
+          "Nof1 reverse-engineered backend project: https://github.com/patrickleehua/nof0-backed-end",
         ],
       },
     ],
