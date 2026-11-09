@@ -63,7 +63,7 @@ const LocaleText = {
     pdfExport: "PDF 导出",
     templateSystem: "模板系统",
     contentHelp:
-      "只维护 `content/resume-data.js` 这一份数据，页面、CV 和 PDF 导出都从它渲染。",
+      "只维护 `resume.md` 这一份简历内容，页面、CV 和 PDF 导出都从它解析渲染。",
     pdfHelp:
       "点击下载 PDF 会切到同一份 CV 渲染结果并调用浏览器打印/保存 PDF，不再维护单独 PDF 内容。",
     templateHelp:
@@ -106,7 +106,7 @@ const LocaleText = {
     pdfExport: "PDF Export",
     templateSystem: "Template System",
     contentHelp:
-      "Maintain only `content/resume-data.js`; homepage, CV, and PDF export all render from it.",
+      "Maintain only `resume.md`; the homepage, CV, and PDF export all parse and render it.",
     pdfHelp:
       "Download PDF switches to the same CV render and opens browser print/save, so PDF content is not maintained separately.",
     templateHelp:
@@ -393,18 +393,38 @@ function renderApp() {
   }
 }
 
-function boot() {
-  const route = location.hash.replace("#", "") || "home";
-  AppState.route = activeRoutes().includes(route) ? route : "home";
-  renderApp();
-  bindBackToTopButton();
+async function boot() {
+  try {
+    if (window.CV_RESUME_DATA_READY) {
+      await window.CV_RESUME_DATA_READY;
+    }
 
-  window.addEventListener("hashchange", () => {
-    const nextRoute = location.hash.replace("#", "") || "home";
-    AppState.route = activeRoutes().includes(nextRoute) ? nextRoute : "home";
+    const route = location.hash.replace("#", "") || "home";
+    AppState.route = activeRoutes().includes(route) ? route : "home";
     renderApp();
-    updateBackToTopButton();
-  });
+    bindBackToTopButton();
+
+    window.addEventListener("hashchange", () => {
+      const nextRoute = location.hash.replace("#", "") || "home";
+      AppState.route = activeRoutes().includes(nextRoute) ? nextRoute : "home";
+      renderApp();
+      updateBackToTopButton();
+    });
+  } catch (error) {
+    const root = document.querySelector("#app");
+    if (root) {
+      root.innerHTML = `
+        <section class="view">
+          <div class="site-card" style="max-width: 760px; padding: 32px;">
+            <h1 style="margin-top: 0;">Resume loading failed</h1>
+            <p>${String(error.message || error)}</p>
+            <p>Serve this folder through a local web server and try again.</p>
+          </div>
+        </section>
+      `;
+    }
+    console.error(error);
+  }
 }
 
 window.addEventListener("afterprint", () => {

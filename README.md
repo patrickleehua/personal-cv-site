@@ -2,23 +2,23 @@
 
 This directory is an isolated static personal homepage and bilingual CV renderer.
 
-The project uses one maintainable data source:
+The project uses one maintainable resume source:
 
 ```text
-content/resume-data.js
+resume.md
 ```
 
-Homepage, online CV, AI copy context, language switching, preview content, and PDF export all render from that same data object. Do not maintain separate PDF-only CV content.
+The Agent fetches this file directly. The homepage, online CV, language switching, AI copy context, preview content, and PDF export all parse and render the same Markdown source. Do not maintain a separate JavaScript or PDF-only CV copy.
 
 ## Open Locally
 
-Open `index.html` in a browser.
+Serve this directory through a local web server and open `index.html`. The page fetches `resume.md`, so opening the HTML directly with `file://` is not supported.
 
-No build step is required. The page uses local static dependencies:
+No build step is required for deployment. The page uses local static dependencies:
 
 - `vendor/lucide.min.js` for icons
 - `templates/reference.js` for the current UI template
-- `content/resume-data.js` for all resume data
+- `content/resume-parser.js` to parse `resume.md`
 
 ## Routes
 
@@ -31,53 +31,36 @@ The static version uses hash routes:
 
 ## Talk With AI
 
-Open `index.html#ai` or click "Talk with AI" to copy a prepared CV context for AI assistants. It reads the same `content/resume-data.js` file.
+Open `index.html#ai` or click "Talk with AI" to copy a prepared CV context for AI assistants. It reads the same parsed content as the homepage.
 
 The page does not show the full generated content. It copies the context to the clipboard so it can be pasted into ChatGPT, Claude, DeepSeek, or another AI chat.
+
+For an Agent that can fetch a URL, use:
+
+```text
+https://patrickleehua.is-a.dev/resume.md
+```
 
 ## Editing Content
 
 Edit only:
 
 ```text
-content/resume-data.js
+resume.md
 ```
 
-The shape is:
-
-```js
-window.RESUME_DATA = {
-  zh: { ... },
-  en: { ... }
-};
-```
-
-Both language versions can differ naturally, but they live in one file so maintenance stays centralized.
+The file contains both the Chinese and English resume sections. Keep the existing heading structure so the browser parser can render the content correctly. No generation command or GitHub workflow is required.
 
 ## Homepage Images
 
-The homepage portrait area supports either one image or multiple rotating images. Keep the original single-image form when only one asset is needed:
+The homepage portrait is presentation configuration, not resume content. The current parser uses these local assets:
 
-```js
-avatar: "assets/avatar.png"
+```text
+assets/avatar.png
+assets/self-pic-1.png
 ```
 
-For multiple images, use an array. They do not have to be avatars:
-
-```js
-avatar: ["assets/avatar.png", "assets/photo.jpg"]
-```
-
-You can also use richer media objects:
-
-```js
-media: [
-  { type: "image", src: "assets/avatar.png", alt: "Portrait" },
-  { type: "image", src: "assets/photo.jpg", alt: "Work photo" }
-]
-```
-
-The homepage automatically rotates multiple images. The CV sidebar uses the first image as the static profile image for printing/export.
+The homepage rotates both images. The CV sidebar uses the first image for printing/export.
 
 ## Template Switching
 
@@ -97,16 +80,15 @@ Then change `AppState.template` in `app.js`.
 
 ## Project Media
 
-Projects can optionally include preview media:
+Projects can optionally include preview media in the Markdown project section:
 
-```js
-media: [
-  { type: "image", src: "assets/projects/demo.png", alt: "Dashboard preview", caption: "Dashboard" },
-  { type: "video", src: "assets/projects/demo.mp4", caption: "Workflow demo" }
-]
+```text
+#### 项目资料
+- [Dashboard preview](assets/projects/demo.png)
+- [Workflow demo](assets/projects/demo.mp4)
 ```
 
-Leave `media: []` when a project has no preview assets. The template hides the media area automatically.
+Leave out the `项目资料` section when a project has no preview assets. The template hides the media area automatically.
 
 ## PDF Export
 
