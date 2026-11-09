@@ -5,11 +5,12 @@
 Maintain resume content only in:
 
 ```text
-content/resume-data.js
+resume.md
 ```
 
 This file feeds:
 
+- Agent fetch responses,
 - homepage content,
 - online CV content,
 - Chinese/English switching,
@@ -17,66 +18,72 @@ This file feeds:
 - browser PDF export,
 - AI assistant copy context.
 
-There are no separate JSON files and no separate PDF-specific CV content in the static MVP.
+There is no generated resume file, deployment workflow, or separate PDF-specific CV content.
 
-## Data Shape
+## Markdown Structure
 
-```js
-window.RESUME_DATA = {
-  zh: {
-    identity: {},
-    aiContext: {},
-    home: {},
-    summary: [],
-    skills: [],
-    toolbox: [],
-    experience: [],
-    projects: [],
-    education: [],
-    certifications: []
-  },
-  en: {
-    // same shape, independently authored text
-  }
-};
+```text
+# 中文简历 · ...
+## 基本信息
+## 个人定位
+## 个人简介
+## 核心能力
+## 技术栈
+## 侧栏技能（可选，缺省时取技术栈前 12 项）
+## 工作经历
+## 项目经历
+## 教育背景
+## 证书
+
+# English Resume · ...
+## Identity
+## Profile
+## Summary
+## Core Capabilities
+## Tech Stack
+## Sidebar Skills (optional; defaults to the first 12 Tech Stack items)
+## Experience
+## Projects
+## Education
+## Certifications
 ```
+
+Keep the field labels, heading levels, and project subsections intact. `content/resume-parser.js` converts this one Markdown document into the data shape consumed by the existing visual template.
 
 ## Project Content
 
-The Chinese project section is migrated from the current Overleaf `project.tex` source. Keep project descriptions, stack, and responsibility bullets in `content/resume-data.js`; templates should only decide how to display them.
+The Chinese project section is migrated from the current Overleaf `project.tex` source. Keep project descriptions, stack, and responsibility bullets in `resume.md`; templates should only decide how to display them.
 
 Each project supports:
 
-```js
-{
-  period: "",
-  name: "",
-  type: "",
-  category: "personal", // or "enterprise"
-  description: "",
-  stack: [],
-  media: [],
-  items: []
-}
+```text
+### Project name
+- 时间：...
+- 类型：...
+- 分类：个人项目
+- 技术栈：...
+
+Description paragraph.
+
+#### 主要职责
+- Responsibility bullet
 ```
 
 `media` is optional per project. Use image or video entries:
 
-```js
-media: [
-  { type: "image", src: "assets/projects/example.png", alt: "Preview", caption: "Preview" },
-  { type: "video", src: "assets/projects/example.mp4", caption: "Demo" }
-]
+```text
+#### 项目资料
+- [Preview](assets/projects/example.png)
+- [Demo](assets/projects/example.mp4)
 ```
 
 ## Skill Icons
 
-Homepage skill chips and sidebar core skills are driven by:
+Homepage skill chips and sidebar core skills are driven by the `技术栈` / `Tech Stack` section in `resume.md`:
 
-```js
-toolbox: [
-  { label: "AI / ML", items: ["Python", "Spring AI"] }
-]
+```text
+## 技术栈
+- AI / ML：Python、Spring AI
 ```
 
 Brand SVGs live in:
@@ -91,7 +98,7 @@ The reference template maps common names such as `Python`, `Java`, `Go`, `React`
 
 Use the in-page "Download PDF" button. It renders the CV route from the same data and calls browser print/save.
 
-If a future server-side PDF renderer is added, it should consume `RESUME_DATA` or the same migrated content source. Do not reintroduce a hand-maintained PDF copy.
+If a future server-side PDF renderer is added, it should consume the same parsed `resume.md` content. Do not reintroduce a hand-maintained PDF copy.
 
 ## AI Context Workflow
 
@@ -101,16 +108,9 @@ Open:
 index.html#ai
 ```
 
-The Talk with AI view builds a hidden Markdown CV snippet from `content/resume-data.js` for pasting into AI assistants. The system-style instruction lives in each locale under:
+The Talk with AI view builds a hidden Markdown CV snippet from the parsed `resume.md` content for pasting into AI assistants. The system-style instruction is UI behavior kept in `content/resume-parser.js`; it is not part of the Agent-facing Markdown document.
 
-```js
-aiContext: {
-  systemPrompt: [],
-  cvInstruction: ""
-}
-```
-
-If new resume sections are added to `RESUME_DATA`, update the AI copy generation in `app.js` so the generated AI context stays complete.
+If new resume sections are added to `resume.md`, update `content/resume-parser.js` only when the Markdown structure itself changes.
 
 ## Template Workflow
 
