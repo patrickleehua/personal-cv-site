@@ -1,12 +1,12 @@
 # 中文简历 · 李炳桦 / Patrick Lee
 
-> AI 应用开发 / AI Agent / 合约开发工程师
+> AI Agent / AI 研效 / 合约开发工程师
 
 ## 基本信息
 
 - 姓名：李炳桦
 - 常用名：Patrick Lee
-- 职位：AI 应用开发 / AI Agent / 合约开发工程师
+- 职位：AI Agent / AI 研效 / 合约开发工程师
 - 所在地：广州 & 深圳
 - 国籍：中国
 - 经验：3 年经验
@@ -22,53 +22,55 @@
 
 把 AI 能力做成能落地、能审计、能持续迭代的产品系统。
 
-我主要关注企业级 AI 应用、RAG 知识库、Agent 工作流和后端工程化，习惯把模型能力放进清晰的数据、权限、审计和部署链路里，而不是停留在 Demo。
+我主要关注 AI Agent、AI 研效、工程规范、企业级 AI 应用和 AI 出海，习惯把模型能力放进清晰的数据、权限、审计和部署链路里，而不是停留在 Demo。
 
-- AI 服务中台、智能问数、RAG 知识库、Agent Workflow 实战经验
-- Java / Go / Python / TypeScript 全栈交付能力
-- 熟悉模型服务、工具调用、工作流编排、知识库建设和 Docker 部署
+- 专家 Agent 系统、AI 研效、RAG 知识库、智能问数实战经验
+- Java / Go / Rust / Python / TypeScript 全栈交付能力
+- 熟悉 Agent 编排、SOP 技能、MCP 服务、工程规范、FDE 交付与多语言 SEO/GEO
 
 ## 个人简介
 
-- 拥有 3 年后端开发 / AI 应用开发经验，主要集中在企业级数据平台、AI 服务中台、智能问数、RAG 知识库和 Agent 应用落地。擅长把业务流程拆成可落库、可审计、可回滚的工程链路，推动 AI 能力从 Demo 进入真实系统。
-- 具备从需求理解、方案设计、后端架构、Agent 编排、知识库建设到前端交互和 Docker 部署的完整交付能力。当前重点关注 AI Agent、企业级 RAG、AI 应用中台和 AI Native 全栈产品开发，希望在偏落地、偏产品闭环的 AI 应用团队中承担核心开发或技术负责人角色。
+- 拥有 3 年+ 后端开发 / AI 应用开发经验，主要集中在企业级数据平台、AI 服务中台、RAG 知识库、专家 Agent 系统和团队 AI 研效落地。擅长把业务流程拆成可落库、可审计、可回滚的工程链路，推动 AI 能力从 Demo 进入真实系统；近期主导部门全员 AI 化，团队 AI 化使用率达到 90%。
+- 具备从需求理解、方案设计、后端架构、Agent 编排到前端交互和部署上线的完整交付能力，也能以 FDE 的方式深入业务一线，把 AI 方案落到真实场景并持续迭代。实践中更看重需求可验收、结果可验证、成本可控，而不只是模型能力。当前重点关注 AI Agent、AI 研效、工程规范、AI Native 全栈产品和 AI 出海，希望在偏落地、偏产品闭环的 AI 团队中承担核心开发或技术负责人角色。
 
 ## 关键数据
 
 | 指标 | 数值 |
 | --- | --- |
 | 年工程经验 | 3+ |
-| 文件采集实测规模 | 10W+ |
-| 智能配置准确率案例 | 90%+ |
+| 内部 Agent 技能 | 30+ |
+| 团队 AI 化使用率 | 90% |
 
 ## 核心能力
 
 ### AI 应用工程化
 
 - 围绕模型服务、知识库、工具调用、工作流编排和运行审计设计 AI 应用后端，降低模型直接操作业务数据带来的不可控风险。
-- 常用技术包括 Spring AI、Spring AI Alibaba、LangChain、LangGraph、LangChain4J、MCP、Function Calling、Agent Workflow、Prompt 工程、Dify、Coze、n8n、毕昇。
-- 熟悉 OpenClaw、Hermes 等 AI 工作流与自动化产品，具备将信息采集、信号分析、内容生成、人工确认和发布动作编排为端到端流程的实践经验。
+- 常用技术包括 Spring AI、Spring AI Alibaba、AgentScope、LangChain、LangGraph、MCP、Function Calling、Agent Workflow、Prompt 工程、Dify、n8n、毕昇。
+- 熟悉 OpenClaw、Hermes、OpenMausBot、Muse、GrokBot 等 Agent Harness 工程项目，具备 IM + Bot + Agent 的落地实践经验，曾搭建行情监控与交易信号分析、股票走势预测，以及 Instagram、Threads、小红书、X 多平台内容生成与发布等自动化场景。
+- 具备 FDE 一线交付经验，能够深入业务现场理解需求，完成从方案设计、原型验证到上线迭代的落地工作。
 
 ### RAG 与数据能力
 
-- 具备文档解析、切片、向量化、召回、重排序、权限隔离、元数据管理和检索链路调优经验，能够搭建企业级 RAG 知识库。
+- 具备文档解析、切片、向量化、召回、重排序、权限隔离、元数据管理和检索链路调优经验，能够搭建企业级 RAG 知识库，熟悉 WeKnora、LLM Wiki 等知识库与文档理解方案。
 - 熟悉 MySQL、PostgreSQL、Kingbase、Redis、Elasticsearch、Milvus、MinIO、OSS、Kafka、RabbitMQ、RocketMQ 等数据与中间件组件。
 
 ### 后端与全栈开发
 
-- 熟悉 Java、Go、Python、TypeScript，能够基于 Spring Boot / Spring Cloud Alibaba / Gin / FastAPI / Next.js 完成后端服务、前端页面和部署脚本的完整开发。
+- 熟悉 Java、Go、Rust、Python、TypeScript，能够基于 Spring Boot / Spring Cloud Alibaba / Gin / FastAPI / Next.js 完成后端服务、前端页面和部署脚本的完整开发。
 - 具备统一鉴权、RBAC、JWT、OAuth2、网关限流、任务调度、异步消息、WebSocket、SSE、Docker、Docker Compose、Kubernetes、Nginx 等工程实践经验。
 
 ### AI Coding 与 Web3
 
-- 具备 Cursor、Claude Code、Codex、Qoder 等工具驱动下的 Vibe / Spec Coding 全站开发能力。
+- 具备 Cursor、Claude Code、Codex、Qoder 等工具驱动下的 Vibe / Spec Coding 全栈开发能力。
+- 熟悉 SDD、TDD 研发流程与 AI 编码工程规范，能够通过 Skills、MCP、Hooks 等方式搭建团队级 AI 研发流程与质量门禁。
 - 了解 Solidity、Foundry 与基础链上合约开发。
 - Nof1 项目逆向后端：https://github.com/patrickleehua/nof0-backed-end
 
 ## 技术栈
 
-- AI / ML：Python、Spring AI、LangChain、LangGraph、LangChain4J、MCP、LLM、RAG
-- 后端：Java、Go、Spring Boot、Spring Cloud、FastAPI、Gin
+- AI / ML：Python、Spring AI、AgentScope、LangChain、LangGraph、MCP、LLM、RAG
+- 后端：Java、Go、Rust、Spring Boot、Spring Cloud、FastAPI、Gin
 - 数据 / 中间件：PostgreSQL、MySQL、Redis、RabbitMQ、Kafka
 - 前端：React、Next.js、Vue、TypeScript、Tailwind CSS
 - DevOps：Docker、Kubernetes、Git、Linux、Nginx
@@ -79,6 +81,12 @@
 - AI Agent、RAG、Spring AI、LangChain、Java、Go、Python、Spring Boot、PostgreSQL、Redis、Docker、Next.js
 
 ## 工作经历
+
+### 杭州边锋网络技术有限公司 · AI 工程师
+
+- 时间：2026.08 - 2026.11
+- 负责部门 AI 研效与全员 AI 化建设，主导专家 Agent 系统的架构设计与核心开发，围绕 Claude Code、Codex 等 coding agent 搭建任务编排、长任务执行、SOP 技能、MCP 服务和工程规范体系，累计贡献 30+ 内部技能。
+- 推动研发流程 AI 化落地，打通需求文档、SDD、TDD 与游戏客户端开发链路，支撑两款大型棋牌游戏重构。为前端、后端、测试等团队开展 AI 赋能培训并沉淀标准化 SOP，团队 AI 化使用率达到 90%，基本实现单人全栈交付。
 
 ### 深圳天源迪科信息技术股份有限公司 · AI 应用方向核心开发
 
@@ -93,6 +101,99 @@
 - 先后负责多个项目从 0 到 1 的开发搭建，具备良好的业务理解、技术实现和远程协作能力。
 
 ## 项目经历
+
+### 专家 Agent 系统
+
+- 时间：2026.08 - 2026.11
+- 类型：AI 研效 / Agent 编排
+- 分类：企业项目
+- 首页展示：是
+- 技术栈：TypeScript、MCP、Claude Code、Codex、Node.js、Hooks、OpenSpec、Spec Kit、Zod、Vitest
+
+面向公司内部部门研发团队的专家 Agent 系统，以 Claude Code、Codex 为执行底座，按需求、策划、架构、前端、测试、评审等角色组织专家子代理协作交付，重点解决 coding agent 在长任务执行、流程规范、高风险操作和经验沉淀方面的痛点。1.x 版本在真实项目中迭代验证一个月后，用 4 天完成 TypeScript 重构并发布 2.0 版本。
+
+#### 主要职责
+
+- 主导 EA 整体架构设计与核心模块开发，提供 CLI、MCP 服务和 Hooks 三类接入方式，统一适配 Claude Code 与 Codex 的专家定义、钩子事件和权限模型，降低多运行时下的接入与维护成本。
+- 设计基于产物依赖图的任务编排引擎，借鉴 make 思想由磁盘上的真实产物推导任务进度，不再额外维护状态台账；提供开发、修复、调研三类任务模板，支持多个专家子代理并行执行、交付负责人机制、独立评审及跨仓库任务编排。
+- 设计长任务执行与断点续跑机制，检查结果原始输出持久化留证，会话恢复或上下文压缩后自动注入任务简报，保证任务中断、换会话后可准确接续，避免重复执行已完成的外部操作。
+- 设计高风险操作守卫与评审收敛策略，对外发送、不可逆操作等动作须经人工授权，多轮评审不收敛时提示调整方案，避免 Agent 越权操作和无效返修。
+- 适配需求文档、SDD、TDD 研发流程，接入 OpenSpec、Spec Kit 等规格工具，并结合 Cocos Creator、Blender MCP 服务支撑游戏客户端开发场景。
+- 设计问题打捞机制，将模型反复出现的错误和验证有效的做法沉淀为项目级经验，在后续任务中自动注入，减少同类问题重复发生。
+- 2.0 重构采用 TypeScript 严格类型、依赖分层约束、SDD + TDD 与全量自动化测试等工程规范，保证系统在快速迭代下的稳定性与可维护性。
+
+### AI 研效 SOP 技能体系
+
+- 时间：2026.08 - 2026.11
+- 类型：AI 研效 / 研发流程标准化
+- 分类：企业项目
+- 首页展示：是
+- 技术栈：Agent Skills、Claude Code、Codex、MCP、OpenSpec、飞书、Python
+
+面向部门研发全流程的内部 SOP 技能体系，覆盖需求、设计、开发、测试、验收等环节，配合 EA 系统在团队内推广使用；同时结合飞书将各岗位工作经验整理为可查询的 SOP 技能，提升跨岗位协作效率，推动全员 AI 化落地。
+
+#### 主要职责
+
+- 主导制定 AI 编码工程规范，覆盖测试、评审、CI、质量门禁、缺陷分类、安全与发布等 22 个模块，按项目规模和风险分级裁剪，解决 AI 过度测试、门禁膨胀等问题，并通过子代理盲审 EA 两代版本持续修正规范。
+- 构建全栈产品研发 SOP，基于开源 Super Dev 重构竞品调研、项目探索、PRD、UI/UX 等技能，自研技术选型技能，并建立 PRD 检查与拆分流程，形成从需求分析到多仓开发的标准化链路。
+- 设计产品发现实验室，通过多角色子代理研究、真实访谈和市场反方评估产品方向，内置 15 个行业包与 200+ 研究人格，严格区分真实证据与模拟结论。
+- 提出 make-next-graph 长任务方法，以产物依赖图组织长任务，支持跨会话接续和中间产物复用，并可与 SDD、TDD 流程组合使用。
+- 基于飞书 CLI 采集团队群聊、云文档与多维表格，将策划、程序、测试、美术等 22 名成员的工作经验整理为岗位 SOP 技能，开发遇到策划相关问题时可先询问对应技能，未覆盖的问题再反馈补充，回放评测得分率达到 96%。
+- 为测试团队开展 AI 赋能培训，沉淀 AI 用例编写、场景验收与回归测试 SOP，推动测试流程标准化。
+
+### 游戏引擎 Agent 适配（Cocos Creator / Blender）
+
+- 时间：2026.10 - 2026.10
+- 类型：游戏开发 / MCP 工具链
+- 分类：企业项目
+- 首页展示：是
+- 技术栈：MCP、Cocos Creator、Blender、TypeScript、Node.js、Python、Zod、GitHub Actions
+
+为游戏客户端开发场景提供 Cocos Creator 与 Blender 的 MCP 适配，使 Claude Code、Codex 能够直接操作编辑器和建模工具，并对操作结果进行回读校验，提升 Agent 在游戏开发中的可用性和可靠性。
+
+#### 主要职责
+
+- 负责 Cocos Creator 3.7 MCP 服务开发，采用外部 MCP 服务、编辑器扩展与本机鉴权 RPC 结合的架构，解决 3.7 版本编辑器内置 Node 14 的兼容限制，提供场景、节点、组件、资源、预制体、UI 构建与项目构建等 17 个工具。
+- 设计编辑器写操作回读校验与超时保护机制，避免覆盖未保存场景和重复写入，并在 3.7.0 - 3.7.4 多个版本完成故障注入、循环压测与崩溃恢复测试。
+- 基于开源 Blender 执行引擎重构控制层，使用 TypeScript 同时提供 CLI 与 MCP 两种调用方式，覆盖建模、测量与验收等 200+ 操作，并配套 Claude Code、Codex 通用技能。
+- 设计 3D 产出校验机制，通过视口截图回传、独立进程重开模型文件校验和快照回滚，保证 Agent 建模结果可验证、可回退。
+
+### NIUX Agent SEO/GEO 全自动增长平台
+
+- 时间：2026.09 - 至今
+- 类型：AI Agent 全栈项目
+- 分类：个人项目
+- 首页展示：是
+- 技术栈：Go、PostgreSQL、Next.js、Gin、Redis、React、TypeScript、MCP、OAuth、Docker Compose
+
+面向出海企业官网的多语言 SEO/GEO 全自动增长平台，已上线 https://niux.si。平台由战略、编辑、审核、翻译、值守等 13 个 Agent 协作完成选题、写作、审稿、发布、翻译、收录推送和效果复盘，并监测品牌在 AI 搜索中的可见度。上线两周后内容生产实现无人工干预，目前 13 种语言共 600+ 文章页在线。
+
+#### 主要职责
+
+- 负责平台整体架构设计与全栈开发，基于 Go、PostgreSQL 和 Next.js 自研 Agent 运行时，直接对接 OpenAI、Anthropic 官方协议，通过任务租约和持久化执行记录保证服务异常重启后不重复执行副作用。
+- 设计 SEO 内容生产流水线，基于 Search Console 数据自动选题，由多个角色 Agent 分工完成简报、写作、审核、发布与效果评估；Agent 仅可调用白名单工具，产出经规则校验后再写入系统，文章写操作人工占比降至 2%。
+- 实现多语言发布与翻译质检，文章发布后自动翻译为 12 种语言，字段级一次通过率达到 99.7%，Google 搜索展示中 83% 来自译文页面。
+- 实现 GEO 监测与收录推送，通过官方 IP 段识别搜索引擎与 AI 爬虫，探测品牌在主流大模型回答中的提及与引用情况，并通过 IndexNow、WebSub、百度主动推送提升收录效率。
+- 设计自我迭代与无人值守机制，通过每周复盘、跨模型评审和模型赛马持续调整内容策略，运维值守 Agent 自动处理翻译失败、任务卡住等异常，累计自动处置 600+ 运维事件。
+
+### Conduit CI 与多 Agent 开发协同系统
+
+- 时间：2026.10 - 2026.11
+- 类型：AI 研发工具 / DevOps
+- 分类：个人项目
+- 首页展示：是
+- 技术栈：TypeScript、Claude Code、Codex、Node.js、GitHub App、GitHub Actions、Octokit、SQLite、Docker、Playwright、Zod
+
+面向小团队的 AI 研发流水线编排系统，解决 AI 写代码速度超过人工审查、测试和 CI 之后出现的审查死循环、CI 排队、CI 通过但功能错误、多家模型订阅成本失控等问题。系统串联需求工单、强模型规划、执行模型实现、异构模型交叉审查、分级 CI、真实环境验收与合并，人只在高风险节点做决策，全程留痕并受预算约束。产品设计基于开发者社区一个月 4 万+ 条讨论、竞品与大厂工程实践调研完成。
+
+#### 主要职责
+
+- 负责系统整体架构设计与开发，采用常驻进程 + CLI 的模块化单体架构，工单状态机、风险分级、审查判定、预算与 CI 分层等核心规则以纯函数实现，通过适配器对接 GitHub、Agent CLI、IM 通知与沙箱；工单状态以 GitHub 标签和评论为准，明细落 SQLite 账本，保证状态可重建、可追溯。
+- 设计工单驱动的多 Agent 协作流程，工单必须附带可执行的验收标准，中高复杂度需求先经计划审批，再派发到隔离容器中的 Claude Code / Codex 无头会话执行；git、提 PR、合并等确定性步骤由代码完成，任务是否完成由验证结果判定，不采信 Agent 自述。
+- 设计风险分级与交叉审查编排，一次风险判定同时决定 CI 档位、审查强度和审批方式；由异构模型交叉审查并限制最多 3 轮，不收敛时转为选择题交由人工决策，解决单会话自审死循环问题。
+- 设计分级 CI 与真实环境验收，本地门禁、CI 和基于 docker compose + Playwright 的冒烟验收逐级执行，CI 自动修复最多 2 轮，验收日志与截图作为合并门禁证据，合并前基于最新主干重新验证，保证主干常绿。
+- 实现额度感知的模型路由与跨厂商成本账本，按各家订阅的额度窗口分配模型，记录每个工单的成本与审查轮次，支持预算上限与紧急停止。
+- 设计 Agent 安全隔离机制，每个会话运行在独立 Docker 容器中并通过出网白名单代理访问外部，Agent 不持有写凭据，写操作统一由编排器受控执行，防止提示注入导致越权修改；高风险审批可通过 CLI、PR 评论命令和 IM 通知完成，手机端即可处理。
 
 ### TravelFlow AI 旅游产品交付智能体
 
@@ -236,14 +337,14 @@
 
 # English Resume · Patrick Lee / 李炳桦
 
-> AI Application Developer / AI Agent Engineer / Smart Contract Developer
+> AI Agent Engineer / AI R&D Efficiency / Smart Contract Developer
 
 ## Identity
 
 - Name：Patrick Lee
 - Preferred name：李炳桦
-- Headline：AI Application Developer / AI Agent Engineer / Smart Contract Developer
-- Location：Guangzhou & Shenzhen
+- Headline：AI Agent Engineer / AI R&D Efficiency / Smart Contract Developer
+- Location：Guangzhou & Shenzhen · Da Nang, Vietnam · Chiang Mai, Thailand
 - Nationality：China
 - Experience：3 years of experience
 - Education：Bachelor's degree
@@ -258,53 +359,55 @@
 
 I turn AI capabilities into product systems that can be shipped, audited, and improved.
 
-My work focuses on enterprise AI applications, RAG knowledge bases, agent workflows, and backend engineering. I prefer building AI into clear data, permission, audit, and deployment flows instead of stopping at demos.
+My work focuses on AI agents, AI R&D efficiency, engineering standards, enterprise AI applications, and AI for global markets. I prefer building AI into clear data, permission, audit, and deployment flows instead of stopping at demos.
 
-- Hands-on experience with AI platforms, text-to-SQL, RAG knowledge bases, and agent workflows
-- Full-stack delivery across Java, Go, Python, and TypeScript
-- Familiar with model services, tool calling, workflow orchestration, knowledge-base construction, and Docker deployment
+- Hands-on experience with expert-agent systems, AI R&D efficiency, RAG knowledge bases, and text-to-SQL
+- Full-stack delivery across Java, Go, Rust, Python, and TypeScript
+- Familiar with agent orchestration, SOP skills, MCP services, engineering standards, FDE delivery, and multilingual SEO/GEO
 
 ## Summary
 
-- I have 3 years of backend and AI application development experience, mainly in enterprise data platforms, AI service platforms, text-to-SQL systems, RAG knowledge bases, and agent-based application delivery. I am good at turning business workflows into auditable, rollback-friendly engineering flows that move AI features from demo to production.
-- I can cover the full delivery path from requirement analysis, solution design, backend architecture, agent orchestration, knowledge-base construction, frontend interaction, and Docker deployment. My current focus is AI agents, enterprise RAG, AI application platforms, and AI-native full-stack product development.
+- I have 3+ years of backend and AI application development experience, mainly in enterprise data platforms, AI service platforms, RAG knowledge bases, expert-agent systems, and team-wide AI R&D efficiency. I am good at turning business workflows into auditable, rollback-friendly engineering flows that move AI features from demo to production, and I recently led department-wide AI adoption, reaching a 90% team AI usage rate.
+- I can cover the full delivery path from requirement analysis, solution design, backend architecture, and agent orchestration to frontend interaction and production deployment, and I can work FDE-style close to the business to land AI solutions in real scenarios and keep iterating. In practice I care more about testable requirements, verifiable results, and controlled costs than raw model capability. My current focus is AI agents, AI R&D efficiency, engineering standards, AI-native full-stack products, and AI for global markets.
 
 ## Key Metrics
 
 | 指标 | 数值 |
 | --- | --- |
 | years engineering experience | 3+ |
-| files processed in tested collection workflows | 100K+ |
-| configuration accuracy in an AI workflow case | 90%+ |
+| internal agent skills | 30+ |
+| team AI adoption rate | 90% |
 
 ## Core Capabilities
 
 ### AI Application Engineering
 
 - Design AI application backends around model services, knowledge bases, tool calling, workflow orchestration, and runtime auditing to reduce the risk of models directly mutating business data.
-- Hands-on with Spring AI, Spring AI Alibaba, LangChain, LangGraph, LangChain4J, MCP, function calling, agent workflows, prompt engineering, Dify, Coze, n8n, and Bisheng.
-- Experienced in composing information collection, signal analysis, content generation, human confirmation, and publishing actions into end-to-end automation flows.
+- Hands-on with Spring AI, Spring AI Alibaba, AgentScope, LangChain, LangGraph, MCP, function calling, agent workflows, prompt engineering, Dify, n8n, and Bisheng.
+- Familiar with agent harness projects such as OpenClaw, Hermes, OpenMausBot, Muse, and GrokBot, with hands-on IM + bot + agent experience in scenarios such as market monitoring and trading-signal analysis, stock trend prediction, and multi-platform content creation and publishing for Instagram, Threads, Xiaohongshu, and X.
+- Experienced in FDE-style delivery: working close to the business to understand requirements and carrying AI solutions from design and prototype validation to production and iteration.
 
 ### RAG and Data Systems
 
-- Experienced in document parsing, chunking, vectorization, retrieval, reranking, permission isolation, metadata management, and retrieval-chain tuning for enterprise RAG knowledge bases.
+- Experienced in document parsing, chunking, vectorization, retrieval, reranking, permission isolation, metadata management, and retrieval-chain tuning for enterprise RAG knowledge bases; familiar with knowledge-base and document-understanding solutions such as WeKnora and LLM Wiki.
 - Familiar with MySQL, PostgreSQL, Kingbase, Redis, Elasticsearch, Milvus, MinIO, OSS, Kafka, RabbitMQ, and RocketMQ.
 
 ### Backend and Full-Stack Development
 
-- Work across Java, Go, Python, and TypeScript, delivering backend services, frontend pages, and deployment scripts with Spring Boot, Spring Cloud Alibaba, Gin, FastAPI, and Next.js.
+- Work across Java, Go, Rust, Python, and TypeScript, delivering backend services, frontend pages, and deployment scripts with Spring Boot, Spring Cloud Alibaba, Gin, FastAPI, and Next.js.
 - Experienced with unified authentication, RBAC, JWT, OAuth2, gateway rate limiting, scheduled jobs, asynchronous messaging, WebSocket, SSE, Docker, Docker Compose, Kubernetes, and Nginx.
 
 ### AI Coding and Web3
 
 - Comfortable building full-stack applications with Cursor, Claude Code, Codex, Qoder, and spec-driven coding workflows.
+- Familiar with SDD, TDD, and AI coding engineering standards, and able to build team-level AI development workflows and quality gates with Skills, MCP, and Hooks.
 - Basic knowledge of Solidity, Foundry, and smart contract development.
 - Nof1 reverse-engineered backend project: https://github.com/patrickleehua/nof0-backed-end
 
 ## Tech Stack
 
-- AI / ML：Python、Spring AI、LangChain、LangGraph、LangChain4J、MCP、LLM、RAG
-- Backend：Java、Go、Spring Boot、Spring Cloud、FastAPI、Gin
+- AI / ML：Python、Spring AI、AgentScope、LangChain、LangGraph、MCP、LLM、RAG
+- Backend：Java、Go、Rust、Spring Boot、Spring Cloud、FastAPI、Gin
 - Data / Middleware：PostgreSQL、MySQL、Redis、RabbitMQ、Kafka
 - Frontend：React、Next.js、Vue、TypeScript、Tailwind CSS
 - DevOps：Docker、Kubernetes、Git、Linux、Nginx
@@ -315,6 +418,12 @@ My work focuses on enterprise AI applications, RAG knowledge bases, agent workfl
 - AI Agent、RAG、Spring AI、LangChain、Java、Go、Python、Spring Boot、PostgreSQL、Redis、Docker、Next.js
 
 ## Experience
+
+### Hangzhou Bianfeng Networking Technology Co., Ltd. · AI Engineer
+
+- Period：2026.08 - 2026.11
+- Responsible for AI-driven R&D efficiency and team-wide AI adoption. Led the architecture and core development of the ExpertAgent system, building task orchestration, long-running task execution, SOP skills, MCP services, and engineering standards around coding agents such as Claude Code and Codex, and contributed 30+ internal skills.
+- Brought AI into the development workflow by connecting requirement documents, SDD, TDD, and game-client development, supporting PRD-based collaboration across frontend, client, and server repositories in the Go rewrite of two large card games. Delivered AI training for the QA team and other groups with standardized SOPs; team AI adoption reached 90%, enabling one engineer to deliver full-stack work.
 
 ### Shenzhen Tianyuan Dike Information Technology Co., Ltd. · Core Developer, AI Applications
 
@@ -329,6 +438,99 @@ My work focuses on enterprise AI applications, RAG knowledge bases, agent workfl
 - Built multiple projects from zero to one, with strong business understanding, implementation ability, and remote collaboration discipline.
 
 ## Projects
+
+### Expert Agent System
+
+- Period：2026.08 - 2026.11
+- Type：AI R&D efficiency / Agent orchestration platform
+- Category：Enterprise project
+- Show on home：Yes
+- Stack：TypeScript、MCP、Claude Code、Codex、Node.js、Hooks、OpenSpec、Spec Kit、Zod、Vitest
+
+An expert-agent system for the department's R&D team. Built on Claude Code and Codex, it organizes expert sub-agents for requirements, game design, architecture, frontend, testing, and review, addressing coding-agent pain points in long-running tasks, process standards, high-risk operations, and lesson capture. After one month of iterating on 1.x in real projects, I rebuilt it in TypeScript in 4 days and released 2.0.
+
+#### Responsibilities
+
+- Led the overall architecture and core module development, providing CLI, MCP, and Hooks entry points and unifying expert definitions, hook events, and permission models across Claude Code and Codex to reduce integration and maintenance costs.
+- Designed a task orchestration engine based on artifact dependency graphs. Following the make approach, it derives task progress from real artifacts on disk instead of maintaining a separate state ledger; with dev, fix, and research templates, it supports parallel expert sub-agents, delivery owners, independent review, and cross-repository tasks.
+- Designed long-task execution and resume mechanisms: raw check outputs are persisted as evidence, and task briefs are injected automatically after session resume or context compaction, so interrupted tasks resume accurately without repeating completed external actions.
+- Designed guards for high-risk operations and a review convergence strategy. Outbound sends and irreversible operations require human authorization, and non-converging review rounds prompt a change of approach, preventing agent overreach and wasted rework.
+- Integrated requirement documents, SDD, and TDD workflows with spec tools such as OpenSpec and Spec Kit, and supported game-client development through Cocos Creator and Blender MCP services.
+- Designed an issue-salvage mechanism that turns recurring model mistakes and proven practices into project-level lessons injected into later tasks, reducing repeated problems.
+- Applied engineering standards in the 2.0 rewrite, including strict TypeScript typing, enforced dependency layering, SDD + TDD, and comprehensive automated tests, keeping the system stable and maintainable under fast iteration.
+
+### AI R&D SOP Skill System
+
+- Period：2026.08 - 2026.11
+- Type：AI R&D efficiency / Process standardization
+- Category：Enterprise project
+- Show on home：Yes
+- Stack：Agent Skills、Claude Code、Codex、MCP、OpenSpec、Feishu、Python
+
+An internal SOP skill system covering requirements, design, development, testing, and acceptance, rolled out across the team together with EA. It also turns each role's work experience into searchable SOP skills on Feishu, improving cross-role collaboration and driving team-wide AI adoption.
+
+#### Responsibilities
+
+- Led the AI coding engineering standard, covering 22 modules including testing, review, CI, quality gates, defect classification, security, and release. It scales by project size and risk to address AI over-testing and gate sprawl, and was refined through blind sub-agent audits of both EA generations.
+- Built full-stack product SOPs by refactoring competitor research, project exploration, PRD, and UI/UX skills from open-source Super Dev and authoring a technology-selection skill, plus a PRD check-and-split process that standardizes the path from requirement analysis to multi-repository development.
+- Designed a product discovery lab that evaluates product direction through role-based sub-agent research, real interviews, and a market devil's advocate, with 15 industry packs and 200+ research personas, keeping real evidence separate from simulated conclusions.
+- Proposed make-next-graph, a long-task method that organizes work as an artifact dependency graph, supports cross-session resume and reuse of intermediate artifacts, and composes with SDD and TDD.
+- Collected team chats, documents, and tables through the Feishu CLI and turned the experience of 22 teammates across game design, engineering, QA, and art into role-based SOP skills. Engineers ask the matching skill first when they hit game-design questions, and uncovered questions are fed back to extend it; replay evaluation reached a 96% score.
+- Delivered AI training for the QA team and documented SOPs for AI test-case writing, scenario acceptance, and regression testing.
+
+### Game Engine Agent Integration (Cocos Creator / Blender)
+
+- Period：2026.10
+- Type：Game development / MCP toolchain
+- Category：Enterprise project
+- Show on home：Yes
+- Stack：MCP、Cocos Creator、Blender、TypeScript、Node.js、Python、Zod、GitHub Actions
+
+MCP integrations for Cocos Creator and Blender in game-client development, allowing Claude Code and Codex to operate the editor and modeling tool directly and verify results by reading them back, improving agent usability and reliability in game development.
+
+#### Responsibilities
+
+- Developed the Cocos Creator 3.7 MCP service with an external MCP server, an editor extension, and authenticated localhost RPC, working around the editor's bundled Node 14 and providing 17 tools for scenes, nodes, components, assets, prefabs, UI building, and project builds.
+- Designed readback verification and timeout protection for editor writes to prevent overwriting unsaved scenes and duplicate writes, with fault injection, loop stress tests, and crash recovery tests across 3.7.0 - 3.7.4.
+- Rebuilt the control layer on top of an open-source Blender execution engine, offering both CLI and MCP access in TypeScript, covering 200+ modeling, measurement, and QA operations, with a shared Claude Code / Codex skill.
+- Designed 3D output verification with viewport screenshots, re-opening model files in a separate process, and snapshot rollback, keeping agent modeling results verifiable and reversible.
+
+### NIUX Agent SEO/GEO Autonomous Growth Platform
+
+- Period：2026.09 - Present
+- Type：AI agent full-stack project
+- Category：Personal project
+- Show on home：Yes
+- Stack：Go、PostgreSQL、Next.js、Gin、Redis、React、TypeScript、MCP、OAuth、Docker Compose
+
+A multilingual SEO/GEO autonomous growth platform for companies going global, live at https://niux.si. Thirteen agents for strategy, editing, review, translation, and operations collaborate on topic selection, writing, review, publishing, translation, index pushing, and outcome review, while tracking brand visibility in AI search. Content production has run without human intervention since two weeks after launch, with 600+ article pages live in 13 languages.
+
+#### Responsibilities
+
+- Owned the architecture and full-stack development, building a custom agent runtime on Go, PostgreSQL, and Next.js that talks directly to the OpenAI and Anthropic protocols, using task leases and persisted execution records so side effects are not repeated after a restart.
+- Designed the SEO content pipeline: topics are selected automatically from Search Console data, and role-based agents handle briefs, writing, review, publishing, and outcome measurement. Agents can only call allowlisted tools, and outputs are validated before being written, bringing the human share of article write operations down to 2%.
+- Implemented multilingual publishing with translation quality checks. Published articles are translated into 12 languages automatically with a 99.7% first-pass field quality rate, and translated pages account for 83% of Google search impressions.
+- Implemented GEO monitoring and index pushing, identifying search-engine and AI crawlers by official IP ranges, probing brand mentions and citations in major LLM answers, and pushing URLs through IndexNow, WebSub, and Baidu.
+- Designed self-improvement and unattended operations through weekly reviews, cross-model critique, and model A/B competition; an ops agent handles translation failures, stuck tasks, and other incidents automatically, resolving 600+ incidents so far.
+
+### Conduit CI and Multi-Agent Development Orchestration System
+
+- Period：2026.10 - 2026.11
+- Type：AI developer tooling / DevOps
+- Category：Personal project
+- Show on home：Yes
+- Stack：TypeScript、Claude Code、Codex、Node.js、GitHub App、GitHub Actions、Octokit、SQLite、Docker、Playwright、Zod
+
+An AI development pipeline orchestrator for small teams. Once AI writes code faster than humans can review, test, and run CI, new problems appear: review loops that never end, CI queues, green CI with broken features, and runaway costs across multiple model subscriptions. The system chains requirement tickets, planning by a strong model, implementation by an execution model, cross-review by different models, tiered CI, real-environment acceptance, and merging, so humans only decide at high-risk points while every step is recorded and kept within budget. The product design was based on a month of developer-community discussion (40K+ messages) plus competitor and big-tech engineering research.
+
+#### Responsibilities
+
+- Owned the architecture and development: a modular monolith with a long-running daemon and a CLI. Core rules such as the ticket state machine, risk grading, review verdicts, budgets, and CI tiers are pure functions, with adapters for GitHub, agent CLIs, IM notifications, and the sandbox. Ticket state lives in GitHub labels and comments, with details in a SQLite ledger, so state can be rebuilt and traced.
+- Designed a ticket-driven multi-agent workflow: every ticket carries executable acceptance criteria, medium- and high-complexity work goes through plan approval, and execution runs in headless Claude Code / Codex sessions inside isolated containers. Deterministic steps such as git operations, opening PRs, and merging are done by code, and completion is decided by verification results rather than the agent's own claims.
+- Designed risk grading and cross-review orchestration, where one risk decision sets the CI tier, review depth, and approval mode. Different models review each other for at most 3 rounds, and non-converging reviews become a multiple-choice decision for a human, ending single-session self-review loops.
+- Designed tiered CI and real-environment acceptance: local gates, CI, and smoke tests on docker compose + Playwright run in sequence, CI auto-fix is capped at 2 rounds, acceptance logs and screenshots serve as merge-gate evidence, and every merge is re-verified against the latest main branch to keep it green.
+- Implemented quota-aware model routing and a cross-vendor cost ledger that assigns models by each subscription's quota window, records cost and review rounds per ticket, and supports budget caps and an emergency stop.
+- Designed agent isolation: each session runs in its own Docker container behind an egress allowlist proxy, agents hold no write credentials, and all writes go through controlled orchestrator steps to prevent prompt-injection overreach. High-risk approvals can be handled from the CLI, PR comment commands, or IM notifications, including on a phone.
 
 ### TravelFlow AI Travel Product Delivery Agent
 
