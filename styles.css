@@ -1769,6 +1769,14 @@ svg {
     line-height: 1.42;
   }
 
+  .cv-skill-card ul {
+    font-size: 9px;
+  }
+
+  .cv-skill-card li {
+    margin: 2px 0;
+  }
+
   .experience-list {
     gap: 8px;
   }
@@ -1826,12 +1834,18 @@ svg {
     height: 12px;
   }
 
-  .cv-section,
+  /* 章节允许跨页，只保证单个卡片 / 经历 / 项目不被拆开，避免整段跳页留下大块空白 */
   .timeline-item,
   .featured-card,
   .cv-skill-card,
+  .experience-item,
   .plain-item {
     break-inside: avoid-page;
     page-break-inside: avoid;
+  }
+
+  .cv-section h2 {
+    break-after: avoid-page;
+    page-break-after: avoid;
   }
 }
