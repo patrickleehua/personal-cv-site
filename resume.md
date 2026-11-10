@@ -30,8 +30,8 @@
 
 ## 个人简介
 
-- 拥有 3 年+ 后端开发 / AI 应用开发经验，主要集中在企业级数据平台、AI 服务中台、RAG 知识库、专家 Agent 系统和团队 AI 研效落地。擅长把业务流程拆成可落库、可审计、可回滚的工程链路，推动 AI 能力从 Demo 进入真实系统；近期主导部门全员 AI 化，团队 AI 化使用率达到 90%。
-- 具备从需求理解、方案设计、后端架构、Agent 编排到前端交互和部署上线的完整交付能力，也能以 FDE 的方式深入业务一线，把 AI 方案落到真实场景并持续迭代。实践中更看重需求可验收、结果可验证、成本可控，而不只是模型能力。当前重点关注 AI Agent、AI 研效、工程规范、AI Native 全栈产品和 AI 出海，希望在偏落地、偏产品闭环的 AI 团队中承担核心开发或技术负责人角色。
+- 拥有 3 年+ 后端开发 / AI 应用开发经验，主要集中在企业级数据平台、AI 服务中台、RAG 知识库、专家 Agent 系统和团队 AI 研效落地。擅长把 AI 能力从 Demo 带进真实系统；近期主导部门全员 AI 化，团队 AI 化使用率达到 90%。
+- 具备从需求、方案、开发到实施的完整交付能力，也能以 FDE 的方式深入业务一线，把 AI 方案落到真实场景并持续迭代。当前重点关注 AI Agent、AI Native 全栈产品和 AI 出海，希望在偏落地、偏产品闭环的 AI 团队中承担核心开发或技术负责人角色。
 
 ## 关键数据
 
@@ -52,8 +52,9 @@
 
 ### RAG 与数据能力
 
-- 具备文档解析、切片、向量化、召回、重排序、权限隔离、元数据管理和检索链路调优经验，能够搭建企业级 RAG 知识库，熟悉 WeKnora、LLM Wiki 等知识库与文档理解方案。
 - 熟悉 MySQL、PostgreSQL、Kingbase、Redis、Elasticsearch、Milvus、MinIO、OSS、Kafka、RabbitMQ、RocketMQ 等数据与中间件组件。
+- 具备文档解析、切片、向量化、召回、重排序、权限隔离、元数据管理和检索链路调优经验，能够搭建企业级 RAG 知识库，熟悉 WeKnora、LLM Wiki 等知识库与文档理解方案。
+- 开源 Agent 知识库 SDK NiceKit，实现结构化、全文、向量、图谱四路混合检索与 RRF 融合重排，并设计仅向量命中时拒答的证据门禁，降低模型基于语义近邻编造答案的风险：https://github.com/patrickleehua/nice-knowledge
 
 ### 后端与全栈开发
 
@@ -85,7 +86,7 @@
 ### 杭州边锋网络技术有限公司 · AI 工程师
 
 - 时间：2026.08 - 2026.11
-- 负责部门 AI 研效与全员 AI 化建设，主导专家 Agent 系统的架构设计与核心开发，围绕 Claude Code、Codex 等 coding agent 搭建任务编排、长任务执行、SOP 技能、MCP 服务和工程规范体系，累计贡献 30+ 内部技能。
+- 负责部门 AI 研效与全员 AI 化建设，主导专家 Agent 系统的架构设计与核心开发，围绕 Claude、Codex 等搭建任务编排、长任务执行、SOP 技能、MCP 服务和工程规范体系，累计贡献 30+ 内部技能。
 - 推动研发流程 AI 化落地，打通需求文档、SDD、TDD 与游戏客户端开发链路，支撑两款大型棋牌游戏重构。为前端、后端、测试等团队开展 AI 赋能培训并沉淀标准化 SOP，团队 AI 化使用率达到 90%，基本实现单人全栈交付。
 
 ### 深圳天源迪科信息技术股份有限公司 · AI 应用方向核心开发
@@ -367,8 +368,8 @@ My work focuses on AI agents, AI R&D efficiency, engineering standards, enterpri
 
 ## Summary
 
-- I have 3+ years of backend and AI application development experience, mainly in enterprise data platforms, AI service platforms, RAG knowledge bases, expert-agent systems, and team-wide AI R&D efficiency. I am good at turning business workflows into auditable, rollback-friendly engineering flows that move AI features from demo to production, and I recently led department-wide AI adoption, reaching a 90% team AI usage rate.
-- I can cover the full delivery path from requirement analysis, solution design, backend architecture, and agent orchestration to frontend interaction and production deployment, and I can work FDE-style close to the business to land AI solutions in real scenarios and keep iterating. In practice I care more about testable requirements, verifiable results, and controlled costs than raw model capability. My current focus is AI agents, AI R&D efficiency, engineering standards, AI-native full-stack products, and AI for global markets.
+- I have 3+ years of backend and AI application development experience, mainly in enterprise data platforms, AI service platforms, RAG knowledge bases, expert-agent systems, and team-wide AI R&D efficiency. I am good at taking AI capabilities from demo into real systems, and I recently led department-wide AI adoption, reaching a 90% team AI usage rate.
+- I can cover the full delivery path from requirements and solution design to development and implementation, and I can work FDE-style close to the business to land AI solutions in real scenarios and keep iterating. My current focus is AI agents, AI-native full-stack products, and AI for global markets.
 
 ## Key Metrics
 
@@ -389,8 +390,9 @@ My work focuses on AI agents, AI R&D efficiency, engineering standards, enterpri
 
 ### RAG and Data Systems
 
-- Experienced in document parsing, chunking, vectorization, retrieval, reranking, permission isolation, metadata management, and retrieval-chain tuning for enterprise RAG knowledge bases; familiar with knowledge-base and document-understanding solutions such as WeKnora and LLM Wiki.
 - Familiar with MySQL, PostgreSQL, Kingbase, Redis, Elasticsearch, Milvus, MinIO, OSS, Kafka, RabbitMQ, and RocketMQ.
+- Experienced in document parsing, chunking, vectorization, retrieval, reranking, permission isolation, metadata management, and retrieval-chain tuning for enterprise RAG knowledge bases; familiar with knowledge-base and document-understanding solutions such as WeKnora and LLM Wiki.
+- Open-sourced NiceKit, an agent knowledge-base SDK, with four-way hybrid retrieval (structured, full-text, vector, and graph) fused by RRF and reranked, plus an evidence gate that refuses to answer when only vector neighbors match, reducing answers fabricated from semantic similarity: https://github.com/patrickleehua/nice-knowledge
 
 ### Backend and Full-Stack Development
 
@@ -422,7 +424,7 @@ My work focuses on AI agents, AI R&D efficiency, engineering standards, enterpri
 ### Hangzhou Bianfeng Networking Technology Co., Ltd. · AI Engineer
 
 - Period：2026.08 - 2026.11
-- Responsible for AI-driven R&D efficiency and team-wide AI adoption. Led the architecture and core development of the ExpertAgent system, building task orchestration, long-running task execution, SOP skills, MCP services, and engineering standards around coding agents such as Claude Code and Codex, and contributed 30+ internal skills.
+- Responsible for AI-driven R&D efficiency and team-wide AI adoption. Led the architecture and core development of the ExpertAgent system, building task orchestration, long-running task execution, SOP skills, MCP services, and engineering standards around Claude, Codex, and similar tools, and contributed 30+ internal skills.
 - Brought AI into the development workflow by connecting requirement documents, SDD, TDD, and game-client development, supporting PRD-based collaboration across frontend, client, and server repositories in the Go rewrite of two large card games. Delivered AI training for the QA team and other groups with standardized SOPs; team AI adoption reached 90%, enabling one engineer to deliver full-stack work.
 
 ### Shenzhen Tianyuan Dike Information Technology Co., Ltd. · Core Developer, AI Applications
